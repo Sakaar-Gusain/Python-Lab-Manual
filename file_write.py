@@ -1,0 +1,7 @@
+f = open("a.txt",'r+')
+print(f.readlines())
+print(f.closed)
+print(f.encoding)
+print(f.mode)
+print(f.newlines)
+print(f.name)
